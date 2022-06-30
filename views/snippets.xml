@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- [name] adalah nama BLOCK Snippet -->
+    <template id="s_testimonial" name="Testimonial snippet">
+
+        <!-- [s_testimonial] ini berguna untk membuat menetapkan [POSISI] class option di [option.xml] -->
+        <section class="s_testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <img alt="client" class="rounded-circle" src="/theme_totorial/static/img/user-1.png" />
+                        <h3>Contoh Satu</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <img alt="client" class="rounded-circle" src="/theme_totorial/static/img/user-2.png" />
+                        <h3>Client Name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <img alt="client" class="rounded-circle" src="/theme_totorial/static/img/user-1.png" />
+                        <h3>Client Name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- untuk memunculkan BLOCK snippet di editor -->
+    <!-- WAJIB menggunakan inherit_id=website.snippets -->
+    <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+
+            <!--Block Snippets Image -->
+            <t t-snippet="theme_totorial.s_testimonial" t-thumbnail="/theme_totorial/static/img/ui/service-black.png" />
+        </xpath>
+    </template>
+
+</odoo>
+
+<!-- NOTE : untuk option <Type Testimonial> [option.xml] dan [style.scss]  -->

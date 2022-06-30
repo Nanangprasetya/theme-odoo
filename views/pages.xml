@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- === Services Page === -->
+    <record id="services_page" model="website.page">
+        <field name="name">Services page</field>
+        <field name="website_published">True</field>
+        <field name="url">/services</field>
+        <field name="type">qweb</field>
+        <field name="key">theme_totorial.services_page</field>
+        <field name="arch" type="xml">
+            <t t-name="theme_totorial.services_page_template">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <div class="oe_structure" />
+
+                        <div class="container">
+                            <h1>Our Services</h1>
+                            <ul class="services">
+                                <li>Cloud Hosting</li>
+                                <li>Support</li>
+                                <li>Unlimited space</li>
+                            </ul>
+                            
+                        </div>
+                        <!-- === Snippets' area === -->
+                        <!-- untuk membuka Block structure <bisa ditempatkan di atas dan dibawah komponent layout BLOCK -->
+                        <div class="oe_structure" />
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <!-- Menu Service Page -->
+    <!-- [sequence] untuk menentukan posisi menu  cek di website_data.xml module website -->
+    <record id="services_page_link" model="website.menu">
+        <field name="name">Services</field>
+        <field name="page_id" ref="services_page"/>
+        <field name="parent_id" ref="website.main_menu" />
+        <field name="sequence" type="int">99</field>
+    </record>
+</odoo>

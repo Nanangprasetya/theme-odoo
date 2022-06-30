@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <template id="snippet_testimonial_opt" name="Snippet Testimonial Options" inherit_id="website.snippet_options">
+
+        <!-- expr tersebut untuk mengikuti data js khusus dari oddoo -->
+        <!-- [position] aku kasih di after atau paling atas sendiri, klo ingin dipaling bawah pakai [inside] -->
+        <xpath expr="//div[@data-js='Box']" position="after">
+
+            <!-- [.s_testimonial] ini mengikuti nama snippetnya dari [section] snippets.xml -->
+            <!-- [data-js] ini berguna untuk menempatkan/menjalankan [totorial_editor.js] -->
+            <div data-js="s_testimonial_options" data-selector=".s_testimonial">
+
+                <!-- [o_we_user_value_widget] ini tema widget yg disediakan oleh odoo -->
+                <we-select class="o_we_user_value_widget" string="Type Testimonial">
+
+                    <!-- [data-select-class] adalah value untuk menambahkan class baru di class [.s_testimonial] snippets.xml  -->
+                    <we-button class="o_we_user_value_widget" data-select-class="opt_shadow">Shadow Images</we-button>
+                    <we-button class="o_we_user_value_widget" data-select-class="opt_grey_bg">Grey Bg</we-button>
+                    <we-button class="o_we_user_value_widget" data-select-class="">None</we-button>
+                </we-select>
+                
+                <we-input string="Padding" data-select-style="" data-unit="px" data-css-property="padding-bottom" />
+
+            </div>
+        </xpath>
+    </template>
+
+</odoo><!-- NOTE : untuk style kode ini berada di [style.scss]  -->
