@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
         <template id="theme_totorial_footer" inherit_id="website.layout" name="Footer Theme Totorial">
@@ -7,71 +7,97 @@
                     <div class="wrapper ">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="col-lg-3 col-sm-6">
                                     <div class="name">
-                                        <a class="navbar-brand" href="/"><img src="/theme_totorial/static/img/ui/service-black.png" alt=""/></a>
+                                        <a class="navbar-brand" href="/">
+                                            <img src="/theme_totorial/static/img/assets/tlogo_1024.png" alt="" />
+                                        </a>
                                         <p>
-                                            Cu decore tamquam democritum qui. Cu quem probatus vix. Cu per sanctus mnesarchum, ut civibus
-                                            signiferumque eum.
+                                            Sebuah Permainan Kartu untuk mendekatkan yang dekat dan merekatkan yang jauh.
                                         </p>
                                         <div class="footer_icons">
-                                            <a href="#"><span class="fab fa-cc-visa"/></a>
-                                            <a href="#"> <span class="fab fa-cc-paypal"/></a>
-                                            <a href="#"><span class="fab fa-cc-mastercard"/></a>
-                                            <a href="#"> <span class="fab fa-bitcoin"/></a>
-                                            <a href="#"> <span class="fab fa-cc-amex"/></a>
+                                            <a href="#">
+                                                <span class="fab fa-instagram" />
+                                            </a>
+                                            <a href="#">
+                                                <span class="fab fa-tiktok" />
+                                            </a>
+                                            <a href="#">
+                                                <span class="fab fa-facebook" />
+                                            </a>
+                                            <a href="#">
+                                                <span class="fab fa-twitter" />
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-md-3 col-sm-6">
+                                <div class="col-lg-3 col-sm-6">
                                     <div class="i_wrapper">
-                                        <h5 class="footer_heading">ABOUT US</h5>
+                                        <h5 class="footer_heading">Tentang Kami</h5>
                                         <ul class="footer_items">
-                                            <li><a href="#">Who we are</a></li>
-                                            <li><a href="#">Work with us</a></li>
-                                            <li><a href="#">Become a supplier</a></li>
-                                            <li><a href="#">Investor relations</a></li>
-                                            <li><a href="#">Our delivery</a></li>
-                                            <li><a href="#">Affiliate program</a></li>
+                                            <li>
+                                                <a href="#">Tentang Rekat</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Pusat Bantuan</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Hubungi Kami</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Syarat dan Ketentuan</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kebijakan Privasi</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-md-3 col-sm-6">
+                                <div class="col-lg-2 col-sm-6">
                                     <div class="s_wrapper">
-                                        <h5 class="footer_heading">SHOPPING</h5>
+                                        <h5 class="footer_heading">Fitur Rekat</h5>
                                         <ul class=" footer_items">
-                                            <li><a href="#">Cloathing Store</a></li>
-                                            <li><a href="#">Men Suite</a></li>
-                                            <li><a href="#">Women Saree</a></li>
-                                            <li><a href="#">Shoe Store</a></li>
-                                            <li><a href="#">Accessories</a></li>
-                                            <li><a href="#">Sale</a></li>
+                                            <li>
+                                                <a href="#">Rasa Karsa</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tebak Gambar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Truth or Dare</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tebak Kata</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-12 col-sm-6">
+                                <div class="col-lg-4 col-sm-6">
                                     <div class="s_wrapper">
-                                        <h5 class="footer_heading">NEWSLETTER</h5>
-                                        <div class="send">
-                                            <p>
-                                                Be the first to know about new arrivals, look books, sales &amp; promos!
-                                            </p>
-                                            <div class="search_box">
-                                                <div class="form-group has-search">
-                                                    <a href="#" class="material-icons form-control-feedback btn">&#xe0be;</a>
-                                                    <input type="text" class="form-control" placeholder="Your Mail"/>
-                                                </div>
-                                            </div>
+                                        <h5 class="footer_heading">Market Place</h5>
+                                        <div class="payment">
+                                            <table width="auto" height="auto">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Tokopedia.svg" />
+                                                        </td>
+                                                        <td>
+                                                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg" />
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+
+                                            </table>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="copyright">
-                                    <hr/>
-                                    <div class="copy">
-                                        Copyright © 2021 All rights reserved | This template is made with
-                                        <span class="far fa-heart"/> by <a href="https://www.cybrosys.com/" target="_blank">Cybrosys</a>
+                                        <div class="download d-flex align-content-center">
+                                            <a class="ply" target="_blank" href="#">
+                                                <img data-lazyloaded="1" src="https://paccounting.id/wp-content/themes/paccounting/assets/images/download/google-play.svg" ondragstart="if (!window.__cfRLUnblockHandlers) return false; return false;" class="img-fluid litespeed-loaded" data-src="https://paccounting.id/wp-content/themes/paccounting/assets/images/download/google-play.svg" alt="" data-was-processed="true" />
+                                            </a>
+                                            <a class="app" target="_blank" href="#">
+                                                <img data-lazyloaded="1" src="https://paccounting.id/wp-content/themes/paccounting/assets/images/download/appstore.svg" ondragstart="if (!window.__cfRLUnblockHandlers) return false; return false;" class="img-fluid litespeed-loaded" data-src="https://paccounting.id/wp-content/themes/paccounting/assets/images/download/appstore.svg" alt="" data-was-processed="true" />
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
