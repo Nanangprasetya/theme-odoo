@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <template id="theme_totorial_header" inherit_id="website.layout" name="Header Theme Totorial" active="True">
+    <template id="theme-odoo_header" inherit_id="website.layout" name="Header Theme Totorial" active="True">
         <xpath expr="//header" position="replace">
             <section class="navigation ">
                 <div class="container ms">
@@ -12,7 +12,7 @@
                         </div>
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                            <img src="/theme_totorial/static/img/icons/menu.png" alt="" />
+                            <img src="/theme-odoo/static/img/icons/menu.png" alt="" />
                         </button>
 
                         

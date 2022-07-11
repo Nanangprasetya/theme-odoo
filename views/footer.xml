@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
-        <template id="theme_totorial_footer" inherit_id="website.layout" name="Footer Theme Totorial">
+        <template id="theme-odoo_footer" inherit_id="website.layout" name="Footer Theme Totorial">
             <xpath expr="//div[@id='footer']" position="replace">
                 <section class="footer ">
                     <div class="wrapper ">
@@ -10,7 +10,7 @@
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="name">
                                         <a class="navbar-brand" href="/">
-                                            <img src="/theme_totorial/static/img/assets/tlogo_1024.png" alt="" />
+                                            <img src="/theme-odoo/static/img/assets/tlogo_1024.png" alt="" />
                                         </a>
                                         <p>
                                             Sebuah Permainan Kartu untuk mendekatkan yang dekat dan merekatkan yang jauh.

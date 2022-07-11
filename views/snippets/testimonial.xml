@@ -8,17 +8,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 text-center">
-                        <img alt="client" class="rounded-circle" src="/theme_totorial/static/img/user-1.png" />
+                        <img alt="client" class="rounded-circle" src="/theme-odoo/static/img/user-1.png" />
                         <h3>Contoh Satu</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="col-lg-4 text-center">
-                        <img alt="client" class="rounded-circle" src="/theme_totorial/static/img/user-2.png" />
+                        <img alt="client" class="rounded-circle" src="/theme-odoo/static/img/user-2.png" />
                         <h3>Client Name</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="col-lg-4 text-center">
-                        <img alt="client" class="rounded-circle" src="/theme_totorial/static/img/user-1.png" />
+                        <img alt="client" class="rounded-circle" src="/theme-odoo/static/img/user-1.png" />
                         <h3>Client Name</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
@@ -33,7 +33,7 @@
         <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
 
             <!--Block Snippets Image -->
-            <t t-snippet="theme_totorial.s_testimonial" t-thumbnail="/theme_totorial/static/img/ui/service-black.png" />
+            <t t-snippet="theme-odoo.s_testimonial" t-thumbnail="/theme-odoo/static/img/ui/service-black.png" />
         </xpath>
     </template>
 
