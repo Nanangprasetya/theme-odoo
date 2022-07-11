@@ -1,6 +1,6 @@
 {
-    'name': 'Tutorial theme',
-    'description': 'A description for your theme.',
+    'name': 'Theme Website Odoo 15',
+    'description': 'Theme Website Odoo 15, with custom snippets.',
     'version': '1.0',
     'author': 'Your name',
     'category': 'Theme/Creative',
